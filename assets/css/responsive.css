@@ -1,0 +1,247 @@
+
+
+/*
+Author: XpeedStudio
+Author URI: http://themeforest.net/user/XpeedStudio/portfolio
+*/
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    body {
+        font-size: 15px;
+    }
+	.home-content h1 {
+	font-size: 48px;
+	margin-top: 90px;
+	}
+	.home-content p {
+    font-size: 21px;
+	}
+	.portfolio-wrapper2 .portfolio-item.width-img {
+    height: 198px;
+	}
+	#clients .items img {
+		width: 100%;
+		
+	  }
+	  #clients{
+		height:600px;
+		width: 100%;
+		margin-right: 20px;
+		
+	}
+	#clients .items img {
+		width: 100%;
+		margin-left: -2px;
+		
+		
+	  }
+	  #clients .clipnguy{
+		height: 140px;
+		
+	}
+	.features-bg{
+		margin-right: 100px;
+		width: 235px;
+	}
+	  #clients .items div:last-child {
+		display: -webkit-box;
+		will-change: 200px;
+	  }
+    
+
+}
+
+/* Portrait tablets and small desktops */
+@media  (max-width: 991px) {
+    html {
+        font-size: 80%;
+    }
+	.about-content h4 {
+    font-size: 14px;
+	}
+	
+	.contact-area {
+    padding: 60px 40px 124px 40px;
+	}
+	#clients{
+		height:600px;
+		width: 100%;
+		margin-right: 70px;
+		
+	}
+	#clients .items img {
+		width: 100%;
+		margin-left: -10px;
+		
+	  }
+	
+	  #clients .items div:last-child {
+		display: -webkit-box;
+		width: auto;
+	  }
+
+}
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    html {
+        font-size: 70%;
+    }
+	.home-content h1 {
+    font-size: 46px;
+	}
+	.home-content p {
+    font-size: 20px;
+	}
+	.about-content a {
+    margin-bottom: 20px;
+	}
+	.experience-content {
+    margin-bottom: 20px;
+	}
+	
+	.contact-area {
+    margin-bottom: 20px;
+	}
+	.features-bg {
+    margin: 0 auto;
+    margin-bottom: 20px;
+	}
+	#clients{
+		height:300px;
+		width: 100%;
+		
+		
+	}
+	#clients .items img {
+		max-width: 170px;
+		margin-left: -1px;
+		
+	  }
+	
+	  #clients .items div:last-child {
+		display: -webkit-box;
+		width: auto;
+	  }
+	
+   
+}
+
+
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+    html {
+        font-size: 60%;
+    }
+	.home-content h1 {
+    font-size: 18px;
+	}
+	.home-content p {
+    font-size: 12px;
+	}
+	.heading-content h3 {
+    font-size: 20px;
+	}
+	.experience-content h4 {
+    font-size: 18px;
+	}
+   .experience-content .content-details h5 {
+    font-size: 15px;
+	}
+	.testimonial-content .testimonial-quote p {
+    font-size: 12px;
+	}
+	.contact-wrapper h4 {
+    font-size: 18px;
+	}
+	.cd-header {
+    top: 3%;
+	}
+	#clients{
+		height:300px;
+		width: 100%;
+		
+		
+		
+	}
+	#clients .items img {
+	
+		margin-left: -10px;
+		max-width: 160px;
+		
+
+		
+	  }
+	  .features-bg{
+		  margin-left: 85px;
+		  width:200px;
+	  }
+	  #clients .items div:last-child {
+		display: -webkit-box;
+		width: auto;
+	  }
+	  #quote-carousel p{
+		font-size: 12px;
+		text-align: center;
+		margin right: 5px;
+			margin-right: 5px;
+		}
+		#quote-carousel small{
+			font-size: 10px;
+			margin right: 5px;
+			margin-right: 5px;
+			
+			}
+
+}
+@media (max-width: 380px){
+	.features-bg{
+	 margin-left: 62px;
+	}
+  }
+
+
+@media (max-width: 320px) {
+
+
+    html {
+        font-size: 50%;
+    }
+	.home-content p {
+    font-size: 11px;
+	}
+	.cd-header {
+    top: 3%;
+	}
+	.overlay {
+    min-height: 500px;
+	}
+	.home-wrapper {
+    margin-top: 115px;
+	}
+	.features-bg{
+		margin-left: 50px;
+		width:200px;
+	}
+	#quote-carousel p{
+		font-size: 8px;
+		text-align: center;
+		margin right: 5px;
+			margin-right: 5px;
+		}
+		#quote-carousel small{
+			font-size: 10px;
+			margin right: 5px;
+			margin-right: 5px;
+			
+			}
+			#quote-carousel img{
+				height: 10px;
+			}
+		#test{
+			height: 300px;
+			width: 100%;
+		}
+}
+
